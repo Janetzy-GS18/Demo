@@ -5,10 +5,94 @@
     <meta name="description" content="Los pastiemos del autor de la páguina">
     <title>Primera página Demo</title>   
 </head>
+<style>
+    .estetica{background-color:#091581;
+        font-family: sans-serif; 
+        color: white;
+        text-align: center;}
+
+        h1, nav{margin:0;
+            padding:0;}
+
+        nav {background-color: #091581;
+            padding: 10px;
+            display: flex;
+            justify-content: space-evenly;}
+
+        nav a {color: white;
+            text-decoration: none;
+            font-size: 16px;
+            font-family: sans-serif;}
+
+        nav a:hover {text-decoration: underline;}
+</style>
 <body>
-    <h1>Pasatiempos</h1>
-    <p>Me gustan las buenas hitorias, por lo que unos de mis pasatiempos favoritos son:</p>
-    <p>La lectura y ver peliculas</p>
-    <img width="400" src="https://media.istockphoto.com/id/1957612313/photo/teenage-girl-sitting-on-windowsill-and-reading-a-book.jpg?s=612x612&w=is&k=20&c=VNZ1m9Isfu5OnscZ-XAaz6q0Z8Vpg-2Nr3Yp2f3Ix9M=">
-    <img width="400" src="https://cdn.pixabay.com/photo/2019/04/24/21/55/cinema-4153289_1280.jpg">
-</html>
+    <header>
+        <h1 class="estetica">Pasatiempos</h1>
+        <nav>
+            <a href="lectura.html">Lectura</a>
+            <a href="peliculas.html">Peliculas</a>
+            <a href="dibujo.html">Dibujo</a>
+            <a href="musica.html">Música</a>
+            <a href="canto.html">Canto</a>    
+        </nav>
+    </header>
+    <main>
+        <article>   
+                <header>
+                    <h2>Sobre mí</h2>
+                </header>
+                <p>Nací el 18 de mayo del 2004 en Monterrey. Vivo con mi familia, que son mi madre, mi padre y mis 3 hermanos menores, somos lo que se considera una familia numerosa.</p>                
+                <p>Actualmente me encuentro cursando el 5° semestre en <abbr title="Facultad de Contaduría Pública y Administración">FACPYA</abbr> en la carrera de LTI. Tengo contemplado estudiar una segunda carrera al terminar la actual.</p>
+                
+                <aside>
+                    <a href="https://facpya.uanl.mx/">Paguina de Facpya</a>
+                </aside>
+
+                <figure>
+                    <img src="https://images.pexels.com/photos/6147365/pexels-photo-6147365.jpeg?auto=compress&cs=tinysrgb&w=500&h=750&dpr=1" alt="Cuatro personas uniendo piezas de un rompecabezas">
+                    <figcaption><small>Armar un rompecabezas</small></figcaption>
+                </figure> 
+
+                
+                <P style="text-align: center;"><strong><em>"La pasión es energía. Siente el poder que proviene de enfocarte en lo que te entusiasma."</em> — Oprah Winfrey</strong></p>
+                <p>Mi dia a dia siempre tendra integardo realizar algunos de mis pasatiempos, es una parte muy escencial.</p>
+                <footer>
+                    <hr>
+                </footer>
+
+                <section>
+                    <h2>¿Por qué todos necesitamos tener un pasatiempo?</h2>
+                    <blockquote cite="https://selecciones.com.mx/por-que-todos-necesitamos-tener-un-pasatiempo-la-ciencia-lo-explica/">
+                        <mark>Los pasatiempos no son solo una forma de entretenimiento, sino una herramienta poderosa para mejorar tu salud física y mental.</mark>
+                    </blockquote>
+
+                    <div>
+                        <p style="color:blue;"><b><i>Beneficios:</i></b></p>
+                    </div>
+                    <dl>
+                        <dt><b>Mentales</b></dt>
+                        <dd>Reducen el estrés, estimulan el cerebro, aumentan la creatividad y mejoran la autoestima.</dd>
+                        <dt><b>Físicos</b></dt>
+                        <dd>Mejoran la coordinación, la condición física y ayudan a relajar el cuerpo.</dd>
+                        <dt><b>Sociales</b></dt>
+                        <dd>Fomentan la conexión con otros, mejoran la comunicación y desarrollan el trabajo en equipo.</dd>
+                        <dt><b>Personales y profesionales</b></dt>
+                        <dd>Favorecen el aprendizaje, la disciplina y pueden convertirse en una fuente de ingresos.</dd>
+                    </dl>
+                </section>
+                <footer>
+                    <hr>
+                </footer>
+        </article>
+    </main>
+
+    <footer class="estetica" style="padding: 5px;">
+        <address>
+            <p>Sitio web desarrollado por: Janetzy-GS18</p>
+            <p>Redes sociales: </p>
+            <a style="color:white;"href="https://www.facebook.com/share/1BKQvXviUg/">Facebook<a/>
+        </address>
+    </footer>
+</body>
+</html> 
